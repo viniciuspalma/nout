@@ -1,0 +1,27 @@
+{
+  "name": "NOut",
+  "version": "0.0.1",
+  "authors": [
+    "viniciuspalma <vini_palma@outlook.com>"
+  ],
+  "description": "Networks profiles",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "nothing",
+    "out",
+    "allinone",
+    "profiles",
+    "networks"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/viniciuspalma",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
