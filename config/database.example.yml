@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  timeout: 5000
+
+development:
+  <<: *default
+  database: nout_development
+
+test:
+  <<: *default
+  database: nout_test
+
+production:
+  <<: *default
+  database: nout_production
