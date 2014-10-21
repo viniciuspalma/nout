@@ -9,8 +9,11 @@
 </head>
 <body>
   <%= render 'shared/header.html.erb' %>
-  <%= yield %>
 
+  <div class="wrapper">
+    <%= yield %>
+  </div>
+  
   <%= javascript_include_tag 'nout', 'data-turbolinks-track' => true %>
 </body>
 </html>

@@ -9,6 +9,13 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #17b5b3, #4d91cf, #8e4dc9, #750d5c);
-  background-size: 100% 300%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.wrapper {
+  width: 85%;
+  max-width: 1200px;
+  margin: 50px auto;
 }

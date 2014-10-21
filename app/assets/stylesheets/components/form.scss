@@ -1,0 +1,30 @@
+.form {
+  display: block;
+
+  .input-area {
+    margin: 5px 0;
+
+    input,
+    label {
+      display: block;
+    }
+
+    input {
+      height: 45px;
+      width: 100%;
+      padding: 0 15px;
+      border: solid 1px #CCC;
+      border-radius: 4px;
+      margin: 5px 0;
+
+      &[type="checkbox"] {
+        width:45px;;
+        -webkit-appearance: none;
+
+        &:checked {
+          background: black;
+        }
+      }
+    }
+  }
+}
