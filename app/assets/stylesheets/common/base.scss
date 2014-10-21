@@ -1,0 +1,14 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to top, #17b5b3, #4d91cf, #8e4dc9, #750d5c);
+  background-size: 100% 300%;
+}
